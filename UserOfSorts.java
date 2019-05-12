@@ -38,13 +38,8 @@ public class UserOfSorts {
             ));
 
         // insertion sort                   
-        oneTest( "insertion sort "
-               , new InsertionSorter( unsorted)
-               );
-        
-        // selection sort
-        oneTest( "selection sort "
-               , new SelectionSorter( unsorted)
+        oneTest( "sub sort then merge"
+               , new SubSortThenMerge( unsorted)
                );
     }
 

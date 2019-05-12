@@ -4,7 +4,7 @@
  */
 import java.util.ArrayList;
 
-public class Merger {
+public class Merger{
 
     ArrayList<String> usersData, localCopy;
 
